@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<winter.com.nestscrolllayout.WrapLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvhead"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ddd"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <winter.com.nestscrolllayout.SimpleViewPagerIndicator
+        android:id="@+id/id_stickynavlayout_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#afffff"></winter.com.nestscrolllayout.SimpleViewPagerIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_stickynavlayout_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44ff0000"></android.support.v4.view.ViewPager>
+
+    <!--<ScrollView-->
+    <!--android:id="@+id/scrollView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginTop="6dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#aaa"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1800dp"-->
+    <!--android:text="我是ScrollView"-->
+    <!--android:textColor="#fff" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--</ScrollView>-->
+
+</winter.com.nestscrolllayout.WrapLayout>
+
